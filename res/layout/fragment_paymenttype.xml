@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF" >
+
+    <EditText
+        android:id="@+id/EditTextRegisterEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/EditTextRegisterRamID"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:hint="Credit Card Type"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/EditTextExpDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/EditTextRegisterEmail"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:hint="Expiration Date"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/EditTextCVV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/EditTextExpDate"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:hint="3-Digit CVV"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/EditTextPhoneNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/EditTextCVV"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:hint="Phone Number"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/EditTextAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/EditTextPhoneNumber"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:hint="Address"
+        android:padding="10dp" />
+
+    <Button
+        android:id="@+id/buttonConfirm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/EditTextAddress"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:text="Confirm" />
+
+    <EditText
+        android:id="@+id/EditTextRegisterRamID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="99dp"
+        android:ems="10"
+        android:hint="Name"
+        android:padding="10dp" />
+
+</RelativeLayout>

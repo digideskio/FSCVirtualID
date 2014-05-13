@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF" >
+
+    <TextView
+        android:id="@+id/textViewEnterConfirmedAmount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editTextPin"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="61dp"
+        android:text="Enter Unlock Pin" />
+
+    <EditText
+        android:id="@+id/editTextPin"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewEnterConfirmedAmount"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:ems="10"
+        android:fontFamily="1"
+        android:imeOptions="actionDone"
+        android:inputType="numberPassword"
+        android:lines="1"
+        android:maxLength="4"
+        android:textAlignment="center" />
+
+    <ImageButton
+        android:id="@+id/imageButtonDone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/editTextPin"
+        android:layout_toRightOf="@+id/textViewEnterConfirmedAmount"
+        android:src="@drawable/ic_action_done" />
+
+</RelativeLayout>

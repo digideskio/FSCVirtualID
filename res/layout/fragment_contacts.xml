@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF" >
+
+    <TextView
+        android:id="@+id/txtLabelYouAdded"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:text="FSC Dining"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewTitleFSC"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="38dp"
+        android:autoLink="phone"
+        android:text="631-293-2778"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="44dp"
+        android:autoLink="email"
+        android:text="saccoj@farmingdale.edu"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textViewTitleFSC"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtLabelYouAdded"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:autoLink="map"
+        android:text="2350 Broadhollow Road, Farmingdale, NY 11735"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</RelativeLayout>
