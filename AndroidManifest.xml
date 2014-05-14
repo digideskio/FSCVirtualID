@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.fscvirtualid.jbm"
     android:versionCode="1"
-    android:versionName="Alpha 1.2" >
+    android:versionName="Alpha 1.3" >
 
     <uses-sdk
         android:minSdkVersion="11"

@@ -22,7 +22,7 @@ import android.util.Log;
 public class CustomHttpClient {
 
  /** The time it takes for our client to timeout */
-	public static final int HTTP_TIMEOUT = 10 * 1000; // milliseconds 
+	public static final int HTTP_TIMEOUT = 0 * 1000; // milliseconds 
  /** Single instance of our HttpClient */
 	private static HttpClient mHttpClient; 
  /**

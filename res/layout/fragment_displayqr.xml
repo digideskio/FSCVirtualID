@@ -25,7 +25,6 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/imageViewQR"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="154dp"
-        android:src="@drawable/profile" />
+        android:src="@drawable/avatar" />
 
 </RelativeLayout>

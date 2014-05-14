@@ -37,6 +37,8 @@ public class LoginActivity extends FragmentActivity implements OnClickListener{
 	
 	String userPinNumber;
 	String userRamID;
+	//String userFirstName;
+	//String userLastName;
 
 	// Progress Dialog
     private ProgressDialog pDialog;
@@ -51,6 +53,8 @@ public class LoginActivity extends FragmentActivity implements OnClickListener{
     private static final String TAG_MESSAGE = "message";
     private static final String PIN_NUMBER = "pin";
     private static final String RAM_ID = "ramid";
+    //private static final String FIRST_NAME = "firstname";
+    //private static final String LAST_NAME = "lastname";
     
     @Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -149,6 +153,12 @@ public class LoginActivity extends FragmentActivity implements OnClickListener{
             	
             	userRamID = json.getString(RAM_ID);
             	i.putExtra("userRamIDLoginActivity", userRamID);
+            	
+            	//userFirstName = json.getString(FIRST_NAME);
+            	//i.putExtra("userFirstNameLoginActivity", userFirstName);
+            	
+            	//userLastName = json.getString(LAST_NAME);
+            	//i.putExtra("userLastNameLoginActivity", userLastName);
             	
                	finish();
    				startActivity(i);
