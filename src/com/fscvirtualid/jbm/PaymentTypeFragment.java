@@ -23,7 +23,7 @@ public class PaymentTypeFragment extends Fragment {
  
         View rootView = inflater.inflate(R.layout.fragment_paymenttype, container, false);
         
-        confirm = (Button) rootView.findViewById(R.id.buttonConfirm);
+        confirm = (Button) rootView.findViewById(R.id.ButtonForgotPasswordSubmit);
         
         confirm.setOnClickListener(new OnClickListener() {
 			

@@ -5,7 +5,7 @@
     android:background="#FFFFFF" >
 
     <TextView
-        android:id="@+id/txtLabelYouAdded"
+        android:id="@+id/txtLabelPOP"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
@@ -40,7 +40,7 @@
         android:id="@+id/textViewTitleFSC"
         android:layout_width="250dp"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/txtLabelYouAdded"
+        android:layout_below="@+id/txtLabelPOP"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="24dp"
         android:autoLink="map"

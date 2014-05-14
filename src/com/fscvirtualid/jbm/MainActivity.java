@@ -68,13 +68,12 @@ public class MainActivity extends Activity {
 		// AddFunds
 		navDrawerItems.add(new NavDrawerItem(navMenuTitles[2], navMenuIcons.getResourceId(2, -1)));
 		// Transactions with counter for new transactions
-		navDrawerItems.add(new NavDrawerItem(navMenuTitles[3], navMenuIcons.getResourceId(3, -1), true, "10+"));
-		// Hours
+		//navDrawerItems.add(new NavDrawerItem(navMenuTitles[3], navMenuIcons.getResourceId(3, -1), true, "10+"));
+		navDrawerItems.add(new NavDrawerItem(navMenuTitles[3], navMenuIcons.getResourceId(3, -1)));		
+		// Contacts & Hours
 		navDrawerItems.add(new NavDrawerItem(navMenuTitles[4], navMenuIcons.getResourceId(4, -1)));
-		// Contacts
-		navDrawerItems.add(new NavDrawerItem(navMenuTitles[5], navMenuIcons.getResourceId(5, -1)));
 		// Log out
-		navDrawerItems.add(new NavDrawerItem(navMenuTitles[6], navMenuIcons.getResourceId(6, -1)));
+		navDrawerItems.add(new NavDrawerItem(navMenuTitles[5], navMenuIcons.getResourceId(5, -1)));
 
 		// Recycle the typed array
 		navMenuIcons.recycle();
@@ -192,10 +191,6 @@ public class MainActivity extends Activity {
 			break;
 			
 		case 5:
-			fragment = new ContactsFragment();
-			break;
-			
-		case 6:
 			fragment = new LogoutFragment();
 			break;
 

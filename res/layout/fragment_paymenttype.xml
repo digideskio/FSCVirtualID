@@ -5,7 +5,7 @@
     android:background="#FFFFFF" >
 
     <EditText
-        android:id="@+id/EditTextRegisterEmail"
+        android:id="@+id/EditTextForgotPasswordRamID"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/EditTextRegisterRamID"
@@ -18,7 +18,7 @@
         android:id="@+id/EditTextExpDate"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/EditTextRegisterEmail"
+        android:layout_below="@+id/EditTextForgotPasswordRamID"
         android:layout_centerHorizontal="true"
         android:ems="10"
         android:hint="Expiration Date"
@@ -55,7 +55,7 @@
         android:padding="10dp" />
 
     <Button
-        android:id="@+id/buttonConfirm"
+        android:id="@+id/ButtonForgotPasswordSubmit"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/EditTextAddress"

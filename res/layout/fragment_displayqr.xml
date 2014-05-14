@@ -5,20 +5,11 @@
     android:background="#FFFFFF" >
 
     <ImageView
-        android:id="@+id/imageViewLogo"
+        android:id="@+id/imageViewQR"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:src="@drawable/qr" />
-
-    <ImageView
-        android:id="@+id/imageView1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/imageViewLogo"
-        android:layout_centerHorizontal="true"
-        android:src="@drawable/profile" />
+        android:layout_centerHorizontal="true" />
 
     <TextView
         android:id="@+id/textViewRamID"
@@ -27,5 +18,14 @@
         android:layout_below="@+id/imageView1"
         android:layout_centerHorizontal="true"
         android:hint="!empty" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageViewQR"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="154dp"
+        android:src="@drawable/profile" />
 
 </RelativeLayout>

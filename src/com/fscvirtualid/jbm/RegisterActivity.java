@@ -58,7 +58,7 @@ public class RegisterActivity extends Activity implements OnClickListener{
 		setContentView(R.layout.activity_registration);
 		
 		ramid = (EditText)findViewById(R.id.EditTextRegisterRamID);
-		email = (EditText)findViewById(R.id.EditTextRegisterEmail);
+		email = (EditText)findViewById(R.id.EditTextForgotPasswordRamID);
 		password = (EditText)findViewById(R.id.EditTextRegisterPassword);
 		pin = (EditText)findViewById(R.id.EditTextRegisterPin);
 		//pinConfirm = (EditText)findViewById(R.id.EditTextRegisterPinConfirm);

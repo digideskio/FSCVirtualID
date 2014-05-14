@@ -17,6 +17,10 @@ public class TransactionsFragment extends Fragment {
 	
         View rootView = inflater.inflate(R.layout.fragment_transactions, container, false);
         
+        
+        
+        
+        
         return rootView;
         
 

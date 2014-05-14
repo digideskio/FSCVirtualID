@@ -15,7 +15,7 @@
         android:textSize="16sp" />
 
     <TextView
-        android:id="@+id/txtLabelYouAdded"
+        android:id="@+id/txtLabelPOP"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
@@ -28,7 +28,7 @@
         android:id="@+id/textViewEnterConfirmedAmount"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/txtLabelYouAdded"
+        android:layout_below="@+id/txtLabelPOP"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="38dp"
         android:text="$109.34"
