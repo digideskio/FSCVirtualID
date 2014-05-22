@@ -3,10 +3,10 @@
     // These variables define the connection information for your MySQL database 
 	// This is also for the Xampp example,  if you are hosting on your own server,
 	//make the necessary changes (mybringback_travis, etc.)
-    $username = "schwj13"; 
-    $password = "passwordgoeshere"; 
-    $host = "csserver.farmingdale.edu"; 
-    $dbname = "schwj13"; 
+    $username = "CHANGE_ME"; 
+    $password = "CHANGE_ME"; 
+    $host = "CHANGE_ME"; 
+    $dbname = "CHANGE_ME"; 
 
 
     // UTF-8 is a character encoding scheme that allows you to conveniently store 
